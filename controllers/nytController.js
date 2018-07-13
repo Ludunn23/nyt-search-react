@@ -11,7 +11,7 @@ module.exports = {
       req.query
     );
     axios
-      .get("http://api.nytimes.com/svc/search/v2/articlesearch.json", {
+      .get("https://api.nytimes.com/svc/search/v2/articlesearch.json", {
         params
       })
       .then(response => {
